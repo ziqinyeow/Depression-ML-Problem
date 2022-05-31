@@ -2,11 +2,11 @@
 
 There are \_ notebooks here and each notebook will address different type of problems based on different datasets. Although some datasets are not really reliable, it's worth to try and research. We are approaching this depression detection problem using ensemble technique by combining all the best models trained in each notebooks.
 
-<a href="#Notebook 1">Notebook 1</a> - ML/Structured/Tabular/CSV</a>
-<a href="#Notebook 2">Notebook 2</a> - ML/Structured/Tabular/CSV</a>
-<a href="#Notebook 3">Notebook 3</a> - DL/Unstructured/Image/TIFF</a>
-<a href="#Notebook 4">Notebook 4</a> - DL/Unstructured/Image/PNG</a>
-<a href="#Notebook 5">Notebook 5</a> - DL/Unstructured/Image/PNG</a>
+[Notebook 1](#notebook-1) - ML/Structured/Tabular/CSV
+[Notebook 2](#notebook-2) - ML/Structured/Tabular/CSV
+[Notebook 3](#notebook-3) - DL/Unstructured/Image/TIFF
+[Notebook 4](#notebook-4) - DL/Unstructured/Image/PNG
+[Notebook 5](#notebook-5) - DL/Unstructured/Image/PNG
 
 ## Notebook 1
 
