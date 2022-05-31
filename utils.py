@@ -2,6 +2,7 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 
 def make_confusion_matrix(cf,
@@ -161,3 +162,23 @@ def atomic_benchmark_estimator(estimator, X_test, verbose=False):
             max(runtimes),
         )
     return sum(runtimes) / len(runtimes)
+
+# Function to create new folder if not exists
+
+
+def make_new_folder(folder_name, parent_folder):
+
+    # Path
+    path = os.path.join(parent_folder, folder_name)
+
+    # Create the folder
+    # 'new_folder' in
+    # parent_folder
+    try:
+        # mode of the folder
+        mode = 0o777
+
+        # Create folder
+        os.mkdir(path, mode)
+    except OSError as error:
+        print(error)
