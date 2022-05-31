@@ -6,9 +6,11 @@ There are \_ notebooks here and each notebook will address different type of pro
 [Notebook 2](#notebook-2) - ML/Structured/Tabular/CSV \
 [Notebook 3](#notebook-3) - DL/Unstructured/Image/TIFF \
 [Notebook 4](#notebook-4) - DL/Unstructured/Image/PNG \
-[Notebook 5](#notebook-5) - DL/Unstructured/Image/PNG \
+[Notebook 5](#notebook-5) - DL/Unstructured/Image/PNG
 
-## Notebook 1
+## [Notebook 1]("./../Notebook%201.ipynb")
+
+Lorem
 
 ## Notebook 2
 
