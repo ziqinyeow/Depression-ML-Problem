@@ -44,7 +44,7 @@ Tabular 5-class classification problem - 10 questions to classify the person is 
 5. Random Forest (acc: 0.9017)
 6. Neural Network (acc: 0.9636)
 
-Accuracy and time of each model were being compared. \
+Accuracy and time of each model were being compared.
 
 Data source: [GitHub](https://github.com/patilgirish815/Depression_Detection_Using_Machine_Learning)
 
@@ -76,7 +76,7 @@ Technique performed and data are the same as [Notebook 4](./Notebook%204.ipynb).
 
 ## Notebook 6
 
-Text classification (28-class) problem - Text loaded from [Go Emotions](https://huggingface.co/datasets/go_emotions) HuggingFace dataset to fit into a pretrained bert tokenizer and model that classify the text emotion (e.g.: fear, embarrassment, happy...). \
+Text classification (28-class) problem - Text loaded from [Go Emotions](https://huggingface.co/datasets/go_emotions) HuggingFace dataset to fit into a pretrained bert tokenizer and model that classify the text emotion (e.g.: fear, embarrassment, happy...).
 
 This model is a fine-tuned version of microsoft/xtremedistil-l6-h384-uncased on an unknown dataset. It achieves the following results on the evaluation set:
 
