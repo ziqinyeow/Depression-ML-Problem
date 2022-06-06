@@ -4,6 +4,17 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
+def get_features(df):
+    """
+    Takes as input the dataframe and then returns 
+    the categorical, numerical and temporal variables 
+    in the dataframe
+    in the form of a list
+    """
+    cat_feat = [num for num in df.columns if df[num].dtypes == "O" or df[num].dtypes == "bool"]
+    numeric_feat = [num for num in df.columns if df[num].dtypes != "O"]
+    temp_variables = [num for num in df.columns if df[num].dtype == "datetime64[ns]"]
+    return cat_feat, numeric_feat, temp_variables
 
 def make_confusion_matrix(cf,
                           group_names=None,

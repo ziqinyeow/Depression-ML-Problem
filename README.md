@@ -19,6 +19,8 @@ There are 7 notebooks here and each notebook will address different type of prob
 
 No implementation yet.
 
+Data source: [GitHub](https://github.com/Sabab31/Depression-Repository/blob/main/Depression%20Dataset.csv)
+
 ## Notebook 2 - [Link](./Notebook%202.ipynb)
 
 Tabular 5-class classification problem - 10 questions to classify the person is normal or having mild, moderate, severe or extremely severe depression.
