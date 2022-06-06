@@ -8,11 +8,11 @@ There are 7 notebooks here and each notebook will address different type of prob
 [Notebook 4](#notebook-4) - DL/Unstructured/Image/PNG \
 [Notebook 5](#notebook-5) - DL/Unstructured/Image/PNG \
 [Notebook 6](#notebook-6) - DL/Unstructured/Text/CSV \
-[Notebook 7](#notebook-7) - DL/Unstructured/Text/CSV \
+[Notebook 7](#notebook-7) - DL/Unstructured/Text/CSV
 
 # Production Deliverables
 
-[Web App](https://deprai.vercel.app/)
+[Web App](https://deprai.vercel.app/) \
 [Web GitHub](https://github.com/ziqinyeow/depr.ai)
 
 ## Notebook 1 - [Link](./Notebook%201.ipynb)
@@ -78,9 +78,9 @@ Technique performed and data are the same as [Notebook 4](./Notebook%204.ipynb).
 
 Text classification (28-class) problem - Text loaded from [Go Emotions](https://huggingface.co/datasets/go_emotions) HuggingFace dataset to fit into a pretrained bert tokenizer and model that classify the text emotion (e.g.: fear, embarrassment, happy...). \
 
-This model is a fine-tuned version of microsoft/xtremedistil-l6-h384-uncased on an unknown dataset. It achieves the following results on the evaluation set: \
+This model is a fine-tuned version of microsoft/xtremedistil-l6-h384-uncased on an unknown dataset. It achieves the following results on the evaluation set:
 
-Loss: 0.1234 \
+Loss: 0.1234
 
 Data source: [HuggingFace](https://huggingface.co/datasets/go_emotions)
 
@@ -88,12 +88,13 @@ Data source: [HuggingFace](https://huggingface.co/datasets/go_emotions)
 
 Text classification (2-class) problem - Text loaded from HuggingFace dataset (self-pushed dataset from Kaggle) to fit into a pretrained bert tokenizer and model that classify whether the text is depression or non-depression. \
 
-This model is a fine-tuned version of microsoft/xtremedistil-l6-h384-uncased on an unknown dataset. It achieves the following results on the evaluation set: \
+This model is a fine-tuned version of microsoft/xtremedistil-l6-h384-uncased on an unknown dataset. It achieves the following results on the evaluation set:
 
 Loss: 0.1606
-Accuracy: 0.9565 \
 
-I have push the model to [HuggingFace](https://huggingface.co/ziq/depression_tweet) \
+Accuracy: 0.9565
+
+I have push the model to [HuggingFace](https://huggingface.co/ziq/depression_tweet)
 
 Data Source:
 
@@ -127,5 +128,5 @@ Seem's like some model perform inaccurately especially vision model, we are not 
 
 We will be using Next.js and some of the amazing tool to build this web applications. \
 
-[Web App](https://deprai.vercel.app/)
+[Web App](https://deprai.vercel.app/) \
 [Web GitHub](https://github.com/ziqinyeow/depr.ai)
