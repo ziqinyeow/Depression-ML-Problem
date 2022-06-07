@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
+
 def get_features(df):
     """
     Takes as input the dataframe and then returns 
@@ -11,10 +12,28 @@ def get_features(df):
     in the dataframe
     in the form of a list
     """
-    cat_feat = [num for num in df.columns if df[num].dtypes == "O" or df[num].dtypes == "bool"]
+    cat_feat = [num for num in df.columns if df[num].dtypes ==
+                "O" or df[num].dtypes == "bool"]
     numeric_feat = [num for num in df.columns if df[num].dtypes != "O"]
-    temp_variables = [num for num in df.columns if df[num].dtype == "datetime64[ns]"]
+    temp_variables = [
+        num for num in df.columns if df[num].dtype == "datetime64[ns]"]
     return cat_feat, numeric_feat, temp_variables
+
+
+def get_data(df, fraction=[0.6, 0.2, 0.2]):
+    fractions = np.array(fraction)
+    # shuffle your input
+    df = df.sample(frac=1)
+    # split into 3 parts
+    train, val, test = np.array_split(
+        df, (fractions[:-1].cumsum() * len(df)).astype(int))
+
+    train.reset_index(drop=True, inplace=True)
+    val.reset_index(drop=True, inplace=True)
+    test.reset_index(drop=True, inplace=True)
+
+    return train, val, test
+
 
 def make_confusion_matrix(cf,
                           group_names=None,

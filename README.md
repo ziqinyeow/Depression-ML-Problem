@@ -104,6 +104,24 @@ Data Source:
 
 Data have been preprocess - [preprocess notebook](./data/Notebook%207%20Data/process.ipynb) and push to [HuggingFace](https://huggingface.co/datasets/ziq/depression_tweet)
 
+## Notebook 8
+
+Unsupervised representational text generation problem - Approximately 100 rows of texts were collected from multiple [data source](./data/Notebook%208%20Data/README.md). Fine tune a pretrained Distilled GPT2 model from HuggingFace.
+
+This model is a fine-tuned version of distilgpt2. It achieves the following results on the evaluation set:
+
+Loss: 3.3740
+
+This model couldn't be exported after several trials. So we devided to train a model pipeline to be able to generate 1000 suggestions and saved to a csv file.
+
+Generated Suggestions: [See Generated Text](./data/Notebook%208%20Data/generated_suggestions.csv)
+
+Model was pushed to [HuggingFace Hub](https://huggingface.co/ziq/depression_suggestion)
+
+Data source: [GitHub](./data/Notebook%208%20Data/README.md)
+
+Data have been preprocess - [preprocess notebook](./data/Notebook%208%20Data/process.ipynb) and push to [HuggingFace Hub](https://huggingface.co/datasets/ziq/depression_advice)
+
 # Conclusion
 
 Based on the work done:
@@ -121,6 +139,7 @@ We chose:
 5. Notebook 5 - ❌
 6. Notebook 6 - model 1
 7. Notebook 7 - model 1
+8. Notebook 8 - generated_suggestions (1000 records)
 
 to build our web application. \
 
@@ -130,3 +149,7 @@ We will be using Next.js and some of the amazing tool to build this web applicat
 
 [Web App](https://deprai.vercel.app/) \
 [Web GitHub](https://github.com/ziqinyeow/depr.ai)
+
+# Reference
+
+[https://www.mayoclinic.org/diseases-conditions/depression/diagnosis-treatment/drc-20356013](https://www.mayoclinic.org/diseases-conditions/depression/diagnosis-treatment/drc-20356013)
