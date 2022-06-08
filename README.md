@@ -1,6 +1,6 @@
 # Abstract and Introduction
 
-There are 7 notebooks here and each notebook will address different type of problems based on different datasets. Although some datasets are not really reliable, it's worth to try and research. We are approaching this depression detection problem using ensemble technique by combining all the best models trained in each notebooks.
+There are 7 notebooks here, and each notebook will address different types of problems based on different datasets. Although some datasets are not really reliable, it's worth trying and researching. We are approaching this depression detection problem using the ensemble technique by combining all the best models trained in each notebook.
 
 [Notebook 1](#notebook-1) - ML/Structured/Tabular/CSV \
 [Notebook 2](#notebook-2) - ML/Structured/Tabular/CSV \
@@ -15,7 +15,7 @@ There are 7 notebooks here and each notebook will address different type of prob
 [Web App](https://deprai.vercel.app/) \
 [Web GitHub](https://github.com/ziqinyeow/depr.ai)
 
-## Notebook 1 - [Link](./Notebook%201.ipynb) <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+## Notebook 1 - [Link](./Notebook%201.ipynb) <img align="right" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 
 No implementation yet.
 
@@ -35,7 +35,7 @@ Tabular 5-class classification problem - 10 questions to classify the person is 
 6. Model Evaluation
 7. Model Export
 
-### 6 types of model were being built
+### 6 types of models were being built
 
 1. Naive Bayes (acc: 0.8722)
 2. K Nearest Neighbour (acc: 0.8983)
@@ -44,7 +44,7 @@ Tabular 5-class classification problem - 10 questions to classify the person is 
 5. Random Forest (acc: 0.9017)
 6. Neural Network (acc: 0.9636)
 
-Accuracy and time of each model were being compared.
+The accuracy and time of each model were compared.
 
 Data source: [GitHub](https://github.com/patilgirish815/Depression_Detection_Using_Machine_Learning)
 
@@ -54,7 +54,7 @@ No implementation yet.
 
 ## Notebook 4 - [Link](./Notebook%204.ipynb) <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 
-Image binary (2-class) classification problem - Images with 3 color channel (RGB) were trained to perform binary classification on depression and non-depression class.
+Image binary (2-class) classification problem - Images with 3 color channels (RGB) were trained to perform binary classification on depression and non-depression classes.
 
 ### Models built - Notebook 4
 
@@ -67,7 +67,7 @@ Note: Dataset was being classified based on self-experienced (eg: Happy -> Non-d
 
 ## Notebook 5 - [Link](./Notebook%201.ipynb) <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 
-Technique performed and data are the same as [Notebook 4](./Notebook%204.ipynb). The only difference is dataset is not processed based on self-experienced (eg: Happy -> Happy). This notebook more towards emotion classification based on images.
+The technique performed and data are the same as [Notebook 4](./Notebook%204.ipynb). The only difference is dataset is not processed based on self-experienced (eg: Happy -> Happy). This notebook is more towards emotion classification based on images.
 
 ### Models built - Notebook 5
 
@@ -76,7 +76,7 @@ Technique performed and data are the same as [Notebook 4](./Notebook%204.ipynb).
 
 ## Notebook 6 - [Link](./Notebook%206.ipynb) <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
 
-Text classification (28-class) problem - Text loaded from [Go Emotions](https://huggingface.co/datasets/go_emotions) HuggingFace dataset to fit into a pretrained bert tokenizer and model that classify the text emotion (e.g.: fear, embarrassment, happy...).
+Text classification (28-class) problem - Text loaded from [Go Emotions](https://huggingface.co/datasets/go_emotions) HuggingFace dataset to fit into a pretrained Bert tokenizer and model that classify the text emotion (e.g.: fear, embarrassment, happy...).
 
 This model is a fine-tuned version of microsoft/xtremedistil-l6-h384-uncased on an unknown dataset. It achieves the following results on the evaluation set:
 
@@ -86,7 +86,7 @@ Data source: [HuggingFace](https://huggingface.co/datasets/go_emotions)
 
 ## Notebook 7 - [Link](./Notebook%207.ipynb) <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
 
-Text classification (2-class) problem - Text loaded from HuggingFace dataset (self-pushed dataset from Kaggle) to fit into a pretrained bert tokenizer and model that classify whether the text is depression or non-depression. \
+Text classification (2-class) problem - Text loaded from HuggingFace dataset (self-pushed dataset from Kaggle) to fit into a pretrained Bert tokenizer and model that classify whether the text is depression or non-depression. \
 
 This model is a fine-tuned version of microsoft/xtremedistil-l6-h384-uncased on an unknown dataset. It achieves the following results on the evaluation set:
 
@@ -94,7 +94,7 @@ Loss: 0.1606
 
 Accuracy: 0.9565
 
-I have push the model to [HuggingFace](https://huggingface.co/ziq/depression_tweet)
+I have pushed the model to [HuggingFace](https://huggingface.co/ziq/depression_tweet)
 
 Data Source:
 
@@ -106,17 +106,17 @@ Data have been preprocess - [preprocess notebook](./data/Notebook%207%20Data/pro
 
 ## Notebook 8 - [Link](./Notebook%208.ipynb) <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
 
-Unsupervised representational text generation problem - Approximately 100 rows of texts were collected from multiple [data source](./data/Notebook%208%20Data/README.md). Fine tune a pretrained Distilled GPT2 model from HuggingFace.
+Unsupervised representational text generation problem - Approximately 100 rows of texts were collected from multiple [data source](./data/Notebook%208%20Data/README.md). Fine-tune a pretrained Distilled GPT2 model from HuggingFace.
 
 This model is a fine-tuned version of distilgpt2. It achieves the following results on the evaluation set:
 
 Loss: 3.3740
 
-This model couldn't be exported after several trials. So we devided to train a model pipeline to be able to generate 1000 suggestions and saved to a csv file.
+This model couldn't be exported after several trials. So we decided to train a model pipeline to be able to generate 1000 suggestions and save them to a CSV file.
 
 Generated Suggestions: [See Generated Text](./data/Notebook%208%20Data/generated_suggestions.csv)
 
-Model was pushed to [HuggingFace Hub](https://huggingface.co/ziq/depression_suggestion)
+The model was pushed to [HuggingFace Hub](https://huggingface.co/ziq/depression_suggestion)
 
 Data source: [GitHub](./data/Notebook%208%20Data/README.md)
 
@@ -143,9 +143,9 @@ We chose:
 
 to build our web application.
 
-Seem's like some model perform inaccurately especially vision model, we are not going to chose the models to build our web applications. Only tabular and language model will be used in the web application.
+Seem's like some models perform inaccurately, especially vision models; we are not going to choose the models to build our web applications. Only tabular and language model will be used in the web application.
 
-We will be using Next.js and some of the amazing tool to build this web applications.
+We will be using Next.js and some of the amazing tools to build the web application.
 
 [Web App](https://deprai.vercel.app/) \
 [Web GitHub](https://github.com/ziqinyeow/depr.ai)
