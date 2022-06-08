@@ -15,7 +15,7 @@ There are 7 notebooks here and each notebook will address different type of prob
 [Web App](https://deprai.vercel.app/) \
 [Web GitHub](https://github.com/ziqinyeow/depr.ai)
 
-## Notebook 1 - [Link](./Notebook%201.ipynb) - [<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">]
+## Notebook 1 - [Link](./Notebook%201.ipynb) <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 
 No implementation yet.
 
@@ -52,7 +52,7 @@ Data source: [GitHub](https://github.com/patilgirish815/Depression_Detection_Usi
 
 No implementation yet.
 
-## Notebook 4 - [Link](./Notebook%204.ipynb) - <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+## Notebook 4 - [Link](./Notebook%204.ipynb) <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 
 Image binary (2-class) classification problem - Images with 3 color channel (RGB) were trained to perform binary classification on depression and non-depression class.
 
@@ -65,7 +65,7 @@ Data source: [Kaggle](https://www.kaggle.com/datasets/astraszab/facial-expressio
 
 Note: Dataset was being classified based on self-experienced (eg: Happy -> Non-depression) but not fully reliable
 
-## Notebook 5 - [Link](./Notebook%201.ipynb) - <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+## Notebook 5 - [Link](./Notebook%201.ipynb) <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 
 Technique performed and data are the same as [Notebook 4](./Notebook%204.ipynb). The only difference is dataset is not processed based on self-experienced (eg: Happy -> Happy). This notebook more towards emotion classification based on images.
 
@@ -74,7 +74,7 @@ Technique performed and data are the same as [Notebook 4](./Notebook%204.ipynb).
 1. Self-defined CNN (acc: 0.3435)
 2. Efficient Net Fine Tuned (acc: 0.4648)
 
-## Notebook 6 - [Link](./Notebook%206.ipynb) - <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
+## Notebook 6 - [Link](./Notebook%206.ipynb) <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
 
 Text classification (28-class) problem - Text loaded from [Go Emotions](https://huggingface.co/datasets/go_emotions) HuggingFace dataset to fit into a pretrained bert tokenizer and model that classify the text emotion (e.g.: fear, embarrassment, happy...).
 
@@ -84,7 +84,7 @@ Loss: 0.1234
 
 Data source: [HuggingFace](https://huggingface.co/datasets/go_emotions)
 
-## Notebook 7 - [Link](./Notebook%207.ipynb) - <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
+## Notebook 7 - [Link](./Notebook%207.ipynb) <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
 
 Text classification (2-class) problem - Text loaded from HuggingFace dataset (self-pushed dataset from Kaggle) to fit into a pretrained bert tokenizer and model that classify whether the text is depression or non-depression. \
 
@@ -104,7 +104,7 @@ Data Source:
 
 Data have been preprocess - [preprocess notebook](./data/Notebook%207%20Data/process.ipynb) and push to [HuggingFace](https://huggingface.co/datasets/ziq/depression_tweet)
 
-## Notebook 8
+## Notebook 8 - [Link](./Notebook%208.ipynb) <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
 
 Unsupervised representational text generation problem - Approximately 100 rows of texts were collected from multiple [data source](./data/Notebook%208%20Data/README.md). Fine tune a pretrained Distilled GPT2 model from HuggingFace.
 
