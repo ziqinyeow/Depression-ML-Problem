@@ -17,12 +17,6 @@ There are 7 notebooks here, and each notebook will address different types of pr
 
 ## Notebook 1 - [Link](./Notebook%201.ipynb) <img align="right" src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"> <img align="right" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 
-No implementation yet.
-
-Data source: [GitHub](https://github.com/Sabab31/Depression-Repository/blob/main/Depression%20Dataset.csv)
-
-## Notebook 2 - [Link](./Notebook%202.ipynb) <img align="right" src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"> <img align="right" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
-
 Tabular 5-class classification problem - 10 questions to classify the person is normal or having mild, moderate, severe or extremely severe depression.
 
 ### Steps including
@@ -47,6 +41,18 @@ Tabular 5-class classification problem - 10 questions to classify the person is 
 The accuracy and time of each model were compared.
 
 Data source: [GitHub](https://github.com/patilgirish815/Depression_Detection_Using_Machine_Learning)
+
+Data source: [GitHub](https://github.com/Sabab31/Depression-Repository/blob/main/Depression%20Dataset.csv)
+
+## Notebook 2 - [Link](./Notebook%202.ipynb) <img align="right" src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"> <img align="right" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+
+Tabular 2-class classification problem - 30 questions to classify the person is depression or non-depression.
+
+### 1 types of models were being built
+
+1. Neural Network (acc: 0.893)
+
+Data source: [GitHub](https://github.com/Sabab31/Depression-Repository/blob/main/Depression%20Dataset.csv)
 
 ## Notebook 3
 
@@ -132,8 +138,8 @@ Based on the work done:
 
 We chose:
 
-1. Notebook 1 - ❌
-2. Notebook 2 - model 10
+1. Notebook 1 - model 10
+2. Notebook 2 - model 1
 3. Notebook 3 - ❌
 4. Notebook 4 - ❌
 5. Notebook 5 - ❌
