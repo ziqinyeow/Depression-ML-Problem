@@ -8,7 +8,8 @@ There are eight notebooks here, and each notebook will address different types o
 [Notebook 4](#notebook-4) - DL/Unstructured/Image/PNG \
 [Notebook 5](#notebook-5) - DL/Unstructured/Image/PNG \
 [Notebook 6](#notebook-6) - DL/Unstructured/Text/CSV \
-[Notebook 7](#notebook-7) - DL/Unstructured/Text/CSV
+[Notebook 7](#notebook-7) - DL/Unstructured/Text/CSV \
+[Notebook 8](#notebook-8) - DL/Unstructured/Text/CSV
 
 # Production Deliverables
 
