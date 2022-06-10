@@ -1,6 +1,6 @@
 # Abstract and Introduction
 
-There are 7 notebooks here, and each notebook will address different types of problems based on different datasets. Although some datasets are not really reliable, it's worth trying and researching. We are approaching this depression detection problem using the ensemble technique by combining all the best models trained in each notebook.
+There are eight notebooks here, and each notebook will address different types of problems based on different datasets. Although some datasets are not really reliable, it's worth trying and researching. For example, we approach this depression detection problem using the ensemble technique by combining all the best models trained in each notebook.
 
 [Notebook 1](#notebook-1) - ML/Structured/Tabular/CSV \
 [Notebook 2](#notebook-2) - ML/Structured/Tabular/CSV \
@@ -48,7 +48,7 @@ Data source: [GitHub](https://github.com/Sabab31/Depression-Repository/blob/main
 
 Tabular 2-class classification problem - 30 questions to classify the person is depression or non-depression.
 
-### 1 types of models were being built
+### 1 type of model was being built
 
 1. Neural Network (acc: 0.893)
 
@@ -149,7 +149,7 @@ We chose:
 
 to build our web application.
 
-Seem's like some models perform inaccurately, especially vision models; we are not going to choose the models to build our web applications. Only tabular and language model will be used in the web application.
+Seem's like some models perform inaccurately, especially vision models; we are not going to choose the models to build our web applications. So only tabular and language model will be used in the web application.
 
 We will be using Next.js and some of the amazing tools to build the web application.
 
