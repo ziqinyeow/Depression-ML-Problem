@@ -2,14 +2,14 @@
 
 There are eight notebooks here, and each notebook will address different types of problems based on different datasets. Although some datasets are not really reliable, it's worth trying and researching. For example, we approach this depression detection problem using the ensemble technique by combining all the best models trained in each notebook.
 
-[Notebook 1](#notebook-1) - ML/Structured/Tabular/CSV \
-[Notebook 2](#notebook-2) - ML/Structured/Tabular/CSV \
+[Notebook 1](#notebook-1---link--) - ML/Structured/Tabular/CSV \
+[Notebook 2](#notebook-2---link--) - ML/Structured/Tabular/CSV \
 [Notebook 3](#notebook-3) - DL/Unstructured/Image/TIFF \
-[Notebook 4](#notebook-4) - DL/Unstructured/Image/PNG \
-[Notebook 5](#notebook-5) - DL/Unstructured/Image/PNG \
-[Notebook 6](#notebook-6) - DL/Unstructured/Text/CSV \
-[Notebook 7](#notebook-7) - DL/Unstructured/Text/CSV \
-[Notebook 8](#notebook-8) - DL/Unstructured/Text/CSV
+[Notebook 4](#notebook-4---link-) - DL/Unstructured/Image/PNG \
+[Notebook 5](#notebook-5---link-) - DL/Unstructured/Image/PNG \
+[Notebook 6](#notebook-6---link-) - DL/Unstructured/Text/CSV \
+[Notebook 7](#notebook-7---link-) - DL/Unstructured/Text/CSV \
+[Notebook 8](#notebook-8---link-) - DL/Unstructured/Text/CSV
 
 # Production Deliverables
 
