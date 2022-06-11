@@ -43,8 +43,6 @@ The accuracy and time of each model were compared.
 
 Data source: [GitHub](https://github.com/patilgirish815/Depression_Detection_Using_Machine_Learning)
 
-Data source: [GitHub](https://github.com/Sabab31/Depression-Repository/blob/main/Depression%20Dataset.csv)
-
 ## Notebook 2 - [Link](./Notebook%202.ipynb) <img align="right" src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"> <img align="right" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 
 Tabular 2-class classification problem - 30 questions to classify the person is depression or non-depression.
@@ -55,9 +53,13 @@ Tabular 2-class classification problem - 30 questions to classify the person is 
 
 Data source: [GitHub](https://github.com/Sabab31/Depression-Repository/blob/main/Depression%20Dataset.csv)
 
-## Notebook 3
+## Notebook 3 - [Link](./Notebook%203.ipynb)
 
 No implementation yet.
+
+The JAFFE dataset consists of 213 images of different facial expressions from 10 different Japanese female subjects. Each subject was asked to do 7 facial expressions (6 basic facial expressions and neutral) and the images were annotated with average semantic ratings on each facial expression by 60 annotators.
+
+Data source: [JAFFE](https://www.v7labs.com/open-datasets/jaffe#:~:text=The%20JAFFE%20dataset%20consists%20of,facial%20expression%20by%2060%20annotators.)
 
 ## Notebook 4 - [Link](./Notebook%204.ipynb) <img align="right" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 
